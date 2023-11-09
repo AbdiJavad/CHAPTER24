@@ -1,6 +1,8 @@
+import GenericStack.GenericStack;
+
 public class TestStackQueue {
     public static void main(String[] args) {
-        GenericStack<String> stack = new GenericStack<>();
+        GenericStack<String> stack = new GenericStack<String>();
 
         stack.push("Tom");
         System.out.println("(1) " + stack);
