@@ -16,7 +16,6 @@ public class MyLinkedList<E> implements MyList<E> {
 
     }
 
-
     public E getFirst() {
         if (size == 0) {
             return null;
